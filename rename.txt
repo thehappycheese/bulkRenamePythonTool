@@ -1,0 +1,9 @@
+This is an example text file.txt : This_is_an_example_text_file.txt
+ThisFileis.txt                   : Renamed_to_this_file.txt
+DCIM1234.jpg                     : 1234.jpg
+whitespace either side.is        : stripped before renaming.
+
+a.jpg : c.jpg
+b.jpg : c.jpg <-- this line will not work
+
+d.jpg : &*$&!.jpg <-- this line will not work
