@@ -11,8 +11,8 @@ for l in inst:
 		newname = l.split(":")[1].lstrip().rstrip()
 		os.rename(currentname,newname);
 	except:
-		print "Failed to Rename: \n" + currentname+ " to\n"+newname
+		print("Failed to Rename: \n" + currentname+ " to\n"+newname)
 		
-print "Success"
+print("Success")
 inst.close()
 os.system("pause")
